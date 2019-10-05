@@ -433,6 +433,7 @@ typedef struct {
   pixel_t cursor_color;
   uint8_t beep_volume;
   bool keyword_sep_optional;	// do not require separation of keywords
+  bool autostart;
 } SystemConfig;
 extern SystemConfig CONFIG;
 
